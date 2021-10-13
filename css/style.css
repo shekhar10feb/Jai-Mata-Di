@@ -1,0 +1,494 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.room {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+.lamp {
+  position: absolute;
+  width: 14.4%;
+  height: 28%;
+  top: 12.4%;
+  left: 85.8%;
+  z-index: 4;
+  transform: skew(180deg, 17deg);
+}
+
+.stand {
+  position: absolute;
+  top: 42%;
+  left: 65%;
+  width: 10%;
+  height: 12%;
+  background-color: rgb(85, 83, 83);
+}
+
+.bend {
+  position: absolute;
+  top: 30%;
+  left: 65%;
+  width: 2%;
+  height: 17%;
+  background-color: rgb(85, 83, 83);
+  transform: skew(33deg, 80deg);
+}
+
+.mainLamp {
+  position: absolute;
+  top: 16%;
+  left: 38%;
+  width: 25.6%;
+  height: 32.6%;
+  background-color: rgb(85, 83, 83);
+  border-top-right-radius: 8rem;
+  border-bottom-right-radius: 8rem;
+  transform: rotate(-61deg);
+  /* transform: skew(33deg, 80deg); */
+}
+
+.focus {
+  position: absolute;
+  top: 20%;
+  left: 70%;
+  width: 27%;
+  height: 75%;
+  z-index: 5;
+  transform: skew(-22deg, 30deg);
+  transform: rotate(40deg);
+}
+
+.generatecssdotcome_trapezium {
+  height: 0;
+  width: 18%;
+  border-bottom: 500px solid #fff;
+  border-left: 110px solid transparent;
+  border-right: 12px solid transparent;
+  text-align: center;
+  border-bottom-left-radius: 12rem;
+  overflow: hidden;
+}
+
+.container2 {
+  width: 63.8vw;
+  height: 80vh;
+  position: relative;
+  left: 19.2%;
+  border: 2px solid gray;
+  border-top: none;
+  overflow: hidden;
+}
+
+.line1 {
+  position: absolute;
+width: 0.2%;
+height: 40%;
+background-color: gray;
+left: 11.2%;
+top: 69.4%;
+display: inline-block;
+transform: rotate(62deg);
+}
+
+.line2 {
+  position: absolute;
+  width: 0.2%;
+  height: 57%;
+  background-color: gray;
+  left: 94%;
+  top: 64.3%;
+  display: inline-block;
+  transform: rotate(-62deg);
+}
+
+.door {
+  position: absolute;
+  width: 5%;
+  height: 33%;
+  background-color: white;
+  left: 90%;
+  top: 58%;
+  transform: skew(180deg, 28deg);
+}
+
+.beat1 {
+  width: 10%;
+  height: 101%;
+  background-color: gray;
+}
+
+.beat2 {
+  width: 100%;
+  height: 10%;
+  background-color: gray;
+  position: relative;
+  bottom: 101%;
+}
+
+.beat3 {
+  width: 10%;
+  height: 101%;
+  background-color: gray;
+  position: relative;
+  left: 90%;
+  bottom: 101%;
+}
+
+.maniram {
+  position: absolute;
+  width: 11%;
+  height: 33%;
+  background-color: #fff;
+  border-radius: 50%;
+  left: 63%;
+  top: 59%;
+  display: flex;
+  justify-content: center;
+  z-index: 5;
+}
+
+.hair {
+  width: 36%;
+  height: 9%;
+  background-color: black;
+  top: 35%;
+  left: 32%;
+  z-index: 2;
+  border-top-left-radius: 10rem;
+  border-top-right-radius: 10rem;
+  position: absolute;
+}
+.head {
+  width: 36%;
+  height: 23%;
+  background-color: orange;
+  position: absolute;
+  top: 36%;
+  border-radius: 51%;
+}
+
+.eyes {
+  width: 5%;
+  height: 5%;
+  background-color: transparent;
+}
+
+.eyes::before {
+  content: "";
+  position: absolute;
+  top: 45%;
+  left: 22%;
+  background-color: white;
+  z-index: 2;
+  width: 19%;
+  height: 18%;
+  border-radius: 50%;
+}
+
+.eyes::after {
+  content: "";
+  position: absolute;
+  top: 45%;
+  left: 61%;
+  background-color: white;
+  z-index: 2;
+  width: 19%;
+  height: 18%;
+  border-radius: 50%;
+}
+
+.pupil {
+  width: 4%;
+  height: 4%;
+  background-color: transparent;
+}
+
+.pupil::before {
+  content: "";
+  position: absolute;
+  top: 48%;
+  left: 26%;
+  background-color: black;
+  z-index: 2;
+  width: 11%;
+  height: 11%;
+  border-radius: 50%;
+}
+
+.pupil::after {
+  content: "";
+  position: absolute;
+  top: 48%;
+  left: 65%;
+  background-color: black;
+  z-index: 3;
+  width: 11%;
+  height: 11%;
+  border-radius: 50%;
+}
+
+.nose {
+  width: 13%;
+  height: 15%;
+  background-color: transparent;
+  border-bottom-left-radius: 50% 25%;
+  border-bottom-right-radius: 50% 25%;
+  border-top-left-radius: 50% 25%;
+  border-top-right-radius: 50% 25%;
+  position: absolute;
+  top: 54%;
+  left: 45%;
+  z-index: 3;
+  border-bottom: 2px solid black;
+}
+
+.body {
+  width: 50%;
+  height: 41%;
+  background-color: black;
+  position: absolute;
+  top: 59%;
+  border-top-left-radius: 31%;
+  border-top-right-radius: 31%;
+}
+
+.leftHand {
+  width: 100%;
+  height: 100%;
+}
+
+.leftShoulder {
+  width: 11%;
+  height: 23%;
+  background-color: black;
+  position: absolute;
+  top: 41%;
+  left: 70%;
+  transform: rotate(30deg);
+}
+
+.leftPalm {
+  position: absolute;
+  top: 29%;
+  left: 70%;
+  transform: rotate(30deg);
+  /* z-index: 3; */
+  width: 24%;
+  height: 17%;
+}
+
+.leftPalm img {
+  position: absolute;
+  top: 9%;
+  left: 45%;
+  transform: rotate(14deg);
+  width: 57%;
+  height: 65%;
+  /* z-index: 3; */
+}
+
+.righttHand {
+  width: 100%;
+  height: 100%;
+}
+
+.rightShoulder {
+  width: 11%;
+  height: 23%;
+  background-color: black;
+  position: absolute;
+  top: 43%;
+  left: 16%;
+  transform: rotate(-36deg);
+}
+
+.rightPalm {
+  position: absolute;
+  top: 37%;
+  left: -6%;
+  transform: rotate(-41deg);
+  z-index: 3;
+  width: 24%;
+  height: 17%;
+}
+
+.rightPalm img {
+  position: absolute;
+  top: 9%;
+  left: 45%;
+  transform: rotate(14deg);
+  width: 57%;
+  height: 65%;
+}
+
+.stars {
+  position: absolute;
+  width: 29%;
+  height: 11%;
+  right: 64%;
+  top: 12%;
+  z-index: 7;
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wand {
+  position: relative;
+  width: 4px;
+  height: 35%;
+  background-color: brown;
+  display: inline-block;
+  position: absolute;
+  left: 12.4%;
+  top: 14%;
+  transform: rotate(20deg);
+  border-radius: 10px;
+  z-index: 3;
+  
+}
+
+.IntroBox1 {
+  position: absolute;
+  width: 30vh;
+  height: 16.7vh;
+  background: none;
+  left: 150vh;
+  top: 50vh;
+  border-radius: 20%;
+  font-size: 70%;
+  color: #fff;
+  padding: 1.4vh 1.4vh;
+  z-index: 6;
+}
+.IntroPlate {
+  position: relative;
+  transform-origin: 40% 50%;
+  z-index: 6;
+  width: 19vh;
+  height: 10vh;
+  background-color: blue;
+  top: 0;
+  left: 2vh;
+  /* font-size: 400; */
+  padding: 3% 4% 10% 4%;
+  border-radius: 5%;
+}
+
+#IntroTriangle {
+  position: absolute;
+  transform-origin: 40% 50%;
+  top: 15vh;
+  left: 4vh;
+  width: 0;
+  height: 0px;
+  border-left: 2px solid transparent;
+  border-right: 23px solid transparent;
+  border-top: 23px solid blue;
+}
+
+
+.IntroBox2 {
+  position: absolute;
+  width: 30vh;
+  height: 16.5vh;
+  background: none;
+  left: 120vh;
+  top: 50vh;
+  border-radius: 20%;
+  font-size: 70%;
+  color: #fff;
+  padding: 1.4vh 1.4vh;
+  z-index: 6;
+}
+
+.IntroPlate2 {
+  position: relative;
+  transform-origin: 40% 50%;
+  z-index: 6;
+  width: 19vh;
+  height: 10vh;
+  background-color: blue;
+  top: 0;
+  left: 2vh;
+  font-size: xx-large;
+  text-align: center;
+  padding: 6%;
+  border-radius: 5%; 
+}
+
+#IntroTriangle2 {
+  position: absolute;
+  transform-origin: 40% 50%;
+  top: 15vh;
+  left: 18vh;
+  width: 0;
+  height: 0px;
+  border-left: 32px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 28px solid blue;
+}
+
+.cape1 {
+  width: 0;
+  height: 0;
+  border-top: 68px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 31px solid rgb(78, 6, 6);
+  position: absolute;
+  left: 13.66%;
+  top: 67.446%;
+  transform: rotate(25deg);
+}
+
+.cape2 {
+  width: 0;
+  height: 0;
+  border-top: 68px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 31px solid rgb(78, 6, 6);
+  position: absolute;
+  left: 65.4%;
+  top: 67.446%;
+  transform: rotate(-25deg);
+}
+
+.twitterId {
+  position: absolute;
+  width: 100%;
+  height: 6%;
+  top: 92%;
+  left: 0%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+.twitterId img {
+  width: 4%;
+  height: 90%;
+  margin-right: 6px;
+}
+
+.jai {
+  margin: 0 6% 0.5% 6%;
+  font-size: xx-large;
+  font-weight: bolder;
+}
